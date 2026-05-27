@@ -1,0 +1,22 @@
+/* Design system tokens — synced from design-system/colors_and_type.css */
+/* Drop your colors_and_type.css content here, or @import from design-system/ */
+
+:root {
+  /* Colors */
+  --color-brand: #4f46e5;        /* indigo-600 */
+  --color-brand-hover: #4338ca;  /* indigo-700 */
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f4f4f5; /* zinc-100 */
+  --color-border: #e4e4e7;        /* zinc-200 */
+  --color-text: #18181b;          /* zinc-900 */
+  --color-text-muted: #71717a;    /* zinc-500 */
+
+  /* Status */
+  --color-approved: #059669;   /* emerald-600 */
+  --color-pending: #d97706;    /* amber-600 */
+  --color-rejected: #dc2626;   /* red-600 */
+
+  /* Typography */
+  --font-sans: var(--font-inter, ui-sans-serif, system-ui, sans-serif);
+  --font-mono: var(--font-jetbrains-mono, ui-monospace, monospace);
+}
